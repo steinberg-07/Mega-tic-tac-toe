@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: darkgray;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.box{
+   
+    box-sizing: border-box;
+    border: 5px blue solid;
+    width: 30%;
+    height:33vh;
+    background-color: blue;
+    float:left; 
+    display: inline;
+   /* padding: 10px; */
+    position: relative;
+}
+.smallBoxWon h1{
+    /* background-color: green; */
+    position: absolute;
+    margin:0;
+    top: -1vw;
+    left: 2vw;
+    color:red;
+    font-size: 25vw;
+}
+
+.nextBox .small{
+    background-color: green;
+}
+.small{
+    box-sizing: border-box;
+    width: 33.333%;
+    height: 10vh;
+    
+    float:left; 
+    display: inline;
+    background-color: white;
+    border: 3px black solid;
+}
